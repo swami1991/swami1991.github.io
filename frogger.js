@@ -422,7 +422,7 @@ function loadCars(k,i){
     car_texture.image.crossOrigin = "Anonymous";
     
     car_texture.image.onload = handleSceneTexture;
-    car_texture.image.src = "ncsu2.jpg";
+    car_texture.image.src = "https://swami1991.github.io/ncsu2.jpg";
         }
     }
     
@@ -444,7 +444,7 @@ function loadTrucks(k,i){
         truck_texture.image.crossOrigin = "Anonymous";
         
         truck_texture.image.onload = handleSceneTexture;
-        truck_texture.image.src = "ncsu1.jpg";
+        truck_texture.image.src = "https://swami1991.github.io/ncsu1.jpg";
         }
     }
     
@@ -468,7 +468,7 @@ function loadLogs(k,i){
         log_texture.image.crossOrigin = "Anonymous";
         
         log_texture.image.onload = handleSceneTexture;
-        log_texture.image.src = "logs.jpg";
+        log_texture.image.src = "https://swami1991.github.io/logs.jpg";
         }
     }
     
@@ -586,7 +586,7 @@ function loadScene(){
     scene_texture[numArrays].image.crossOrigin = "Anonymous";
     
     scene_texture[numArrays].image.onload = handleSceneTexture;
-    scene_texture[numArrays].image.src = "bottom.jpg";
+    scene_texture[numArrays].image.src = "https://swami1991.github.io/bottom.jpg";
     xOffset = 0; yOffset = 0; zOffset = 0;
     loadCuboid(numArrays,512,32,16,0);
     
@@ -605,7 +605,7 @@ function loadScene(){
     scene_texture[numArrays].image.crossOrigin = "Anonymous";
     
     scene_texture[numArrays].image.onload = handleSceneTexture;
-    scene_texture[numArrays].image.src = "middle.jpg";
+    scene_texture[numArrays].image.src = "https://swami1991.github.io/middle.jpg";
     xOffset = 0; yOffset = 256-16; zOffset = 0;
     loadCuboid(numArrays,512,32,16,0);
     
@@ -625,7 +625,7 @@ function loadScene(){
     scene_texture[numArrays].image.crossOrigin = "Anonymous";
     
     scene_texture[numArrays].image.onload = handleSceneTexture;
-    scene_texture[numArrays].image.src = "grass.jpg";
+    scene_texture[numArrays].image.src = "https://swami1991.github.io/grass.jpg";
     xOffset = 0; yOffset = 512-32; zOffset = 0;
     loadCuboid(numArrays,512,32,16,0);
     
@@ -645,7 +645,7 @@ function loadScene(){
     scene_texture[numArrays].image.crossOrigin = "Anonymous";
     
     scene_texture[numArrays].image.onload = handleSceneTexture;
-    scene_texture[numArrays].image.src = "road.jpg";
+    scene_texture[numArrays].image.src = "https://swami1991.github.io/road.jpg";
     cuboidColor = [0,0,0];
     xOffset = 0; yOffset = 32; zOffset = 16;
     loadCuboid(numArrays,512,208,0,0);
@@ -665,7 +665,7 @@ function loadScene(){
     scene_texture[numArrays].image.crossOrigin = "Anonymous";
     
     scene_texture[numArrays].image.onload = handleSceneTexture;
-    scene_texture[numArrays].image.src = "water.jpg";
+    scene_texture[numArrays].image.src = "https://swami1991.github.io/water.jpg";
     cuboidColor = [0.81,0.95,1];
     xOffset = 0; yOffset = 256+16; zOffset = 16;
     loadCuboid(numArrays,512,208,0,0);
@@ -687,9 +687,10 @@ function loadFrog(){
     
         frog_texture[i].image.onload = handleSceneTexture;
     }
-    frog_texture[0].image.src = "Skintexture.tif";
-    frog_texture[1].image.src = "righteye.tif";
-    frog_texture[2].image.src = "lefteye.tif";
+
+    frog_texture[0].image.src = "https://swami1991.github.io/Skintexture.tif";
+    frog_texture[1].image.src = "https://swami1991.github.io/righteye.tif";
+    frog_texture[2].image.src = "https://swami1991.github.io/lefteye.tif";
     
     
     vPosArr[numArrays] = frog.vertices;
