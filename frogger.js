@@ -291,6 +291,7 @@ function setupWebGL(){
 var count = 0;
 function handleSceneTexture(){
     count++;
+console.log(count);
     if(count == 11){
         for(var i=0; i<numArrays; i++){
             if(i==5){
@@ -1107,6 +1108,7 @@ function drawShadowMap(){
 function renderModels(){
     requestAnimationFrame(renderModels);
     writeCanvas();
+    console.log("in render models");
     if(scene_loaded){
         //gl.clear(gl.COLOR_BUFFER_BIT | gl.DEPTH_BUFFER_BIT);
         gl.bindFramebuffer(gl.FRAMEBUFFER, rttFramebuffer);
