@@ -291,8 +291,8 @@ function setupWebGL(){
 var count = 0;
 function handleSceneTexture(){
     count++;
-console.log(count);
-    if(count == 11){
+    console.log(count);
+    if(count == 8){
         for(var i=0; i<numArrays; i++){
             if(i==5){
                 for(var j=0; j<3; j++){
