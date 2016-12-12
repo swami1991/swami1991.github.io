@@ -690,8 +690,8 @@ function loadFrog(){
     }
 
     frog_texture[0].image.src = "https://swami1991.github.io/middle.jpg";
-    frog_texture[1].image.src = "https://swami1991.github.io/righteye.tif";
-    frog_texture[2].image.src = "https://swami1991.github.io/lefteye.tif";
+    frog_texture[1].image.src = "https://swami1991.github.io/middle.jpg";
+    frog_texture[2].image.src = "https://swami1991.github.io/middle.jpg";
     
     
     vPosArr[numArrays] = frog.vertices;
