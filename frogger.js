@@ -689,9 +689,9 @@ function loadFrog(){
         frog_texture[i].image.onload = handleSceneTexture;
     }
 
-    frog_texture[0].image.src = "https://swami1991.github.io/middle.jpg";
-    frog_texture[1].image.src = "https://swami1991.github.io/middle.jpg";
-    frog_texture[2].image.src = "https://swami1991.github.io/middle.jpg";
+    frog_texture[0].image.src = "https://swami1991.github.io/Skintexture.jpg";
+    frog_texture[1].image.src = "https://swami1991.github.io/righteye.jpg";
+    frog_texture[2].image.src = "https://swami1991.github.io/lefteye.jpg";
     
     
     vPosArr[numArrays] = frog.vertices;
