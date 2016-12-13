@@ -253,9 +253,9 @@ function writeCanvas(){
     imageContext.fillStyle = '#000000';
     imageContext.fillText("Lives left: "+num_lives,350,25);
 	if(won)
-    	imageContext.fillText("You Win!!",0,25);
+    	imageContext.fillText("You Win!!",50,25);
 	if(num_lives <= 0)
-    	imageContext.fillText("Game Over",0,25);
+    	imageContext.fillText("Game Over",50,25);
 }
 
 function setupWebGL(){
